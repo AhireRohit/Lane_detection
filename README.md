@@ -46,10 +46,27 @@ Add your screenshot here:
 LaneDet/
 ├── app/
 │   └── gradio_app.py
+├── assets/
+│   └── demo_screenshot.png
 ├── checkpoints/
 │   ├── unet_best.pt
 │   ├── clrnet_best.pt
 │   └── laneatt_best.pt
+│   └── scnn_best.pt
+├── outputs/
+│   ├── clrnet_preds/
+│   ├── laneatt_preds/
+│   ├── scnn_preds/
+│   ├── unet_preds/
+│   └── mask_vis/
+│   ├── clrnet_train_log.json
+│   ├── laneatt_eval.json
+│   └── laneatt_train_log.json
+│   └── scnn_eval.json
+│   └── scnn_train_log.json
+│   └── unet_eval.json
+│   └── unet_train_log.json
+├── runlogs/
 ├── scripts/
 │   ├── verify_dataset.py
 │   ├── visualize_masks.py
@@ -70,11 +87,6 @@ LaneDet/
 │   ├── clrnet_seg.py
 │   ├── laneatt_seg.py
 │   └── scnn.py
-├── outputs/
-│   ├── unet_eval.json
-│   ├── clrnet_eval.json
-│   ├── laneatt_eval.json
-│   └── *_preds/
 ├── requirements.txt
 └── README.md
 ```
